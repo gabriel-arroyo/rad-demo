@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Gotham Black Regular";
+  src: url('../../../assets/fonts/Gotham Black Regular.ttf');
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  items-align: center;
+}
+.description {
+    font-family: 'Gotham Black Regular', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 15px;
+}
+.description-small{
+    font-family: 'Gotham Black Regular', sans-serif;
+    font-weight: regular;
+    font-size: .8em;
+    text-align: center;
+    max-width: 180px;
+    margin-top: 15px;
+
+}
+.background{
+  max-width: 110px;
+  padding: 30px;
+  border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #050a30;
+  background: rgb(5,10,48);
+  background: radial-gradient(circle, rgba(5,10,48,1) 47%, rgba(29,33,68,1) 53%, rgba(255,255,255,1) 82%, rgba(255,255,255,1) 100%);
+}
+
+.image{
+  width: 90px;
+  height: 90px;
+  margin-right: auto;
+  margin-left: auto;
+}
